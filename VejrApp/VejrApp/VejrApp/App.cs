@@ -13,6 +13,11 @@ namespace VejrApp
         {
             // The root page of your application
             MainPage = new VejrAppPage1();
+
+
+
+
+
        
 
 

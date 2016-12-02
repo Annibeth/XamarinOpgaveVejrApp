@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VejrApp.VejrAppPage1">
+             x:Class="VejrApp.VejrAppPage1"
+             BackgroundImage="fomap"
+            >
   
   
   
@@ -36,17 +38,21 @@
 
     </Grid.ColumnDefinitions>
 
-    <StackLayout Grid.Row="0" Grid.ColumnSpan="12" BackgroundColor="Blue" >
+    <StackLayout Grid.Row="0" Grid.ColumnSpan="12" >
       <Label Text="Gundsoemagle" FontSize="Large" />
       <Label Text="950" FontSize="Small" />
       <Label Text="Dato" FontSize="Large" />
-      <Image Source="icon" Aspect="Fill" VerticalOptions="FillAndExpand" />
+      <!--<Image Source="fomap.png" Aspect="Fill" VerticalOptions="FillAndExpand" />-->
     </StackLayout>
 
-    <StackLayout Grid.Row="1" Grid.ColumnSpan="3" BackgroundColor="Fuchsia" >
+    <StackLayout Grid.Row="1" Grid.ColumnSpan="3" >
       <Label Text="suk" FontSize="Large" />
       <Label Text="123" FontSize="Small" />
       <Label Text="hejsa" FontSize="Large" />
+      <Image Source="lighticons02"/>
+      
+         
+       
     </StackLayout>
 
     <StackLayout Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" BackgroundColor="Lime" >
